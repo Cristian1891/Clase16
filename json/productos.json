@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "Doble Cuarto de Libra con Queso",
+        "precio": 620,
+        "img": "1.png"
+    }, 
+    {
+        "id": 2,
+        "nombre": "Big Mac",
+        "precio": 500,
+        "img": "2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Cuarto de libra con Queso",
+        "precio": 570,
+        "img": "3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Doble BBQ con Queso",
+        "precio": 700,
+        "img": "4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Grand Tasty Doble",
+        "precio": 620,
+        "img": "5.png"
+    },
+    {
+        "id": 6,
+        "nombre": "McFiesta Jr",
+        "precio": 330,
+        "img": "6.png"
+    }
+]

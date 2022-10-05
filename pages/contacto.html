@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../img/favicon.png" rel="icon">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+        <div class="espacio-nav">
+            <a class="navbar-brand ms-5" href="index.html">
+                <img src="../img/logo.png" alt="logo" width="90" height="90">
+            </a>
+        </div>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navigate me-auto mb-2 mb-lg-0">
+                    <li class="nav-item pt-4 pe-4"><a href="../index.html" class="boldItalic">Home</a></li>
+                    <li class="nav-item pt-4 pe-4"><a href="../pages/catalogo.html" class="boldItalic">Catalogo</a></li>
+                    <li class="nav-item pt-4 pe-4"><a href="../pages/contacto.html" class="boldItalic">Contacto</a></li>
+                </ul>
+            </div>
+        </div> 
+    </nav>
+    
+    <section class="contacto">
+        <h2 class="boldItalic colorBlack">Contacto</h2>
+        <div class="cont-pagContacto colorBlack">
+            <img src="../img/nosotros1.jpg" alt="nosotros1">
+            <h3 class="mediumItalic text-center">Llene el formulario de Contacto</h3>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="shadow-lg border border-info p-3 mb-2 mt-4  bg-body rounded">
+                            <form id="procesar-envio" class="needs-validation mediumItalic" novalidate>
+                                <div class="col-md-12 mb-3">
+                                    <label for="nombre" class="form-label">Nombre:</label>
+                                    <input id="nombre" name="nombre" type="text" autocomplete="off" 
+                                    class="form-control" placeholder="Ingrese su nombre" pattern="[A-Za-z\s]+"
+                                    required>
+                                    <div class="valid-feedback">
+                                        Campo Valido
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Completar con su nombre
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <label for="apellido" class="form-label">Apellido:</label>
+                                    <input id="apellido" name="apellido" type="text" autocomplete="off" 
+                                    class="form-control" placeholder="Ingrese su apellido" pattern="[A-Za-z\s]+" required>
+                                    <div class="valid-feedback">
+                                        Campo valido
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Completar con su apellido
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <label for="telefono">Telefono:</label>
+                                    <input id="telefono" type="tel" name="telefono" autocomplete="off" 
+                                    placeholder="Ingrese el numero de su telefono móvil" class="form-control" 
+                                    pattern="([0-9]{8})|([0-9]{10})" required>
+                                    <div class="valid-feedback">
+                                        Campo valido
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Completar con su telefono (mínimo de 8 números o máximo de 10 números)
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <label for="email">Email:</label>
+                                    <input id="email" name="email" type="email" autocomplete="off" 
+                                    placeholder="Ingrese su email" class="form-control" required>
+                                    <div class="valid-feedback">
+                                        Campo valido
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Completar con su email (ejemplo@gmail.com o ejemplo@hotmail.com)
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCustom04" class="form-label">Sucursales</label>
+                                    <select class="form-select" name="sucursal" id="suc" required>
+                                        <option selected disabled value="">Elegir sucursal...</option>
+                                        <option>McDonalds Berazategui Av. 14 4985</option>
+                                        <option>McDonalds Lomas de Zamora Laprida 177</option>
+                                        <option>McDonalds Gregorio de Laferrere Av. Gral. Rojo (Rpnº, Luque Honorio Esq 21)</option>
+                                        <option>McDonalds San Justo Dr. Ignacio Arieta 3474</option>
+                                        <option>McDonalds Moron 9 de Julio 56</option>
+                                        <option>McDonalds San Martin Belgrano 1645</option>
+                                        <option>McDonalds CABA Av. del Libertador 7112</option>
+                                        <option>McDonalds CABA Av. San Martín 2880</option>
+                                        <option>McDonalds CABA Av. Rivadavia 5730</option>
+                                        <option>McDonalds CABA Av. Corrientes 5230</option>
+                                        <option>McDonalds CABA Av. Pueyrredón 230</option>
+                                        <option>McDonalds CABA Av. Corrientes 1650</option>
+                                        <option>McDonalds CABA Av. de Mayo 650</option>
+                                        <option>McDonalds CABA Av. Int. Bullrich 345</option>
+                                        <option>McDonalds CABA Av. del Libertador 7112</option>
+                                        <option>McDonalds San Fernando Av. del Libertador 2194</option>
+                                        <option>McDonalds CABA Av. Cabildo 2523</option>
+                                        <option>McDonalds CABA Av. Elcano 3240</option>
+                                        <option>McDonalds CABA Av. Córdoba 3821</option>
+                                        <option>McDonalds CABA Av. Santa Fe 2468</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Seleccione una sucursal
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <label for="mensaje">Mensaje:</label>
+                                    <textarea id="mensaje" placeholder="Tu Mensaje" autocomplete="off" 
+                                    class="form-control border rounded" required></textarea>
+                                    <div class="valid-feedback">
+                                        Campo valido
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Completar con su mensaje 
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3 mt-5">
+                                    <button></button>
+                                    <input id="enviar-solicitud" class="btn btn-primary mediumItalic me-3" type="submit" value="Enviar"/>
+                                    <input type="reset" name="resetear" class="btn btn-warning mediumItalic me-2" value="Borrar"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/contacto.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+/* Globales */
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/*Fuentes*/
+.mediumItalic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.boldItalic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.blackItalic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+/*Paleta de colores*/
+.colorYellow{
+    color: #ffc107;
+}
+
+.bgColorBlack{
+    background: #000000;
+}
+
+.colorWhite{
+    color: #FFFFFF;
+}
+
+/*Utilidades*/
+.espacio-nav{
+    margin-right: 32rem;
+}
+
+.mover{
+    padding-top: 9rem;
+}
+
+.margen{
+    margin-top: 12rem;
+}
+
+.contenedor{
+    margin: 0 18rem;
+}
+
+.space{
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+.esp-sel{
+    margin-top: 13px;
+}
+
+/*NavBar*/
+.navigate li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffc107;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigate li a:hover {
+    color: #000000;
+}
+
+
+/*Cambio de color y de color de fondo de boton responsive*/
+.navbar-dark .navbar-toggler{
+    background-color: black;
+}
+
+.navbar-dark .navbar-toggler  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245, 221, 39, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/*Seccion principal*/
+#seccion-principal {
+    overflow: hidden;
+    padding-top: 6.5rem;
+}
+
+
+#menu-color a{
+    border: 2px solid #000000;
+}
+
+#menu-color a:hover{
+    color: #000000;
+}
+
+#menu-color .dropdown-menu{
+    background-color: #ffc107!important;
+}
+
+.dropdown-menu{
+    background-color: #ffc107!important;
+    color: black!important;
+    border: 2px solid black!important;
+    padding-top: 0!important; 
+    padding-bottom: 0!important;
+}
+
+.dropdown-menu li a{
+    color: black!important;
+}
+
+.colFlech{
+    color: black!important;
+    padding-top: 1.1rem!important;
+}
+
+
+
+.dropdown-menu li a:hover{
+    background-color: #dc3545!important;
+    color: #ffc107!important;
+    /* border: 2px solid black!important;  */
+}
+
+
+
+.boton:hover{
+    color: #ffffff!important;
+}
+
+
+i{
+    cursor: pointer;
+}
+
+
+a{
+    cursor: pointer;
+}
+
+
+/*Sucursales*/
+#sucursales{
+    font-size: 16px;
+}
+
+/*Footer*/
+#footer{
+    font-size: 16px;
+}
+
+.contFoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cont-arriba{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.iconos li{
+    list-style: none;
+    display: inline;
+}
+
+.iconos li a {
+    color: #FFFFFF;
+}
+
+.iconos li a:hover {
+    color: #ffc107;
+}
+
+.cont-centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-abajo {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.cont-abajo p {
+    display: inline;
+    text-align: center;
+}
+
+/*Contacto*/
+.contacto {
+    padding: 14rem 0;
+    overflow: hidden;
+}
+
+.contacto h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.cont-pagContacto {
+    margin: 4em 15rem;
+    font-size: 20px;
+}
+
+.cont-pagContacto img {
+    width: 70%;
+    height: 300px;
+    margin-bottom: 5em;
+    margin-left: 6.5em;
+}
+
+.cont-pagContacto h3 {
+    font-size: 28px;
+}
+
+textarea {
+    border-color: #ced4da !important;
+    padding: .5em .5rem 10em .5rem !important;
+}
