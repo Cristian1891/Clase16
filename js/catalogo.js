@@ -2,7 +2,7 @@ let contenedor = document.getElementById("contenedor");
 
 
 
-fetch('/json/productos.json')
+fetch('../json/productos.json')
     .then( (res) => res.json())
     .then( (data) => {
         data.forEach((prod) => {
